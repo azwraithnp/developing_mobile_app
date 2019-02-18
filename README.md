@@ -2,4 +2,4 @@
 
 Practice applications for Android fundamentals course
 
-https://imgur.com/a/pSpjKqp
+<a href="https://imgur.com/a/pSpjKqp"><img src="https://imgur.com/a/pSpjKqp" title="HelloToast"></a>
