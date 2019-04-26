@@ -1,13 +1,10 @@
 Practice applications for Android fundamentals course
 
-# HelloToast
-<img src="https://i.imgur.com/Vs6kSOB.gif" title="HelloToast">
+## CounterHomework
+<img src="https://i.imgur.com/0Cb8NGj.gif" title="HelloToast">
 
-# HelloToastChallenge
-<img src="https://i.imgur.com/zO51YB3.gif" title="HelloToastChallenge">
+## SayHelloIntent
+<img src="https://i.imgur.com/7mxsuvt.gif" title="HelloToastChallenge">
 
-# HelloConstraint
-<img src="https://i.imgur.com/KvOCzH5.gif" title="HelloConstraint">
-
-# ScrollingText
-<img src="https://i.imgur.com/LcchO5o.gif" title="ScrollingText">
+## ImplicitIntent
+<img src="https://i.imgur.com/PGp5tIu.gif" title="HelloConstraint">
