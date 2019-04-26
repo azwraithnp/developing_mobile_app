@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetailActivity"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/FoodImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/ingred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1000"
+        android:layout_marginBottom="8dp"/>
+
+    <ScrollView
+        android:id="@+id/svContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/proc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="1000" />
+
+    </ScrollView>
+
+
+</LinearLayout>

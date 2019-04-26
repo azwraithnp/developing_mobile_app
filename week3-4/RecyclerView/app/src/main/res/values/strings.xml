@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Recycler View HW</string>
+
+    <string name="sandwiches">Kale/Lemon Sandwiches</string>
+    <string name="sandwichCon">This sandwich is stunningly delicious and tastes as good as it is healthy.
+        Toast bread well.If using a very dense bread or a rye or pumpernickel double or even triple toast. </string>
+
+    <string name="salad">Mango-Lime Bean Salad</string>
+    <string name="saladCon">Put kale in a pot with 3 to 4 inches of water in the bottom.
+        Bring to a boil, cover, and cook until tender, 3 to 5 minutes; check frequently.
+        Kale is good when cooked to an almost spinachlike tenderness.</string>
+
+    <string name="mushroom">Sweet Potato and Lentil Soup with Shiitake Mushrooms</string>
+    <string name="mushroomCon">Spread the toast thickly with hummus, sprinkle with green onions,
+        pile cilantro on top of the green onions, and then place lemon slices over the cilantro</string>
+
+    <string name="mousse">Lime Mousse</string>
+    <string name="mousseCon">Cut the ends off the lemon, zest them, then squeeze the juice from the ends into a bowl with the zest.
+        Discard the ends. VERY thinly slice the main part of the lemon and set aside.</string>
+
+    <string name="parmesan">Broiled Tilapia Parmesan</string>
+    <string name="parmesanCon">If using a very dense bread or a rye or pumpernickel double or even triple toast.
+        Make it almost crackerlike.Cut the ends off the lemon, zest them, then squeeze the juice from the ends into a bowl with
+        the zest. </string>
+</resources>
