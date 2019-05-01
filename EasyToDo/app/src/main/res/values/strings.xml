@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyToDo</string>
+    <string name="tab_text_1">My Tasks</string>
+    <string name="tab_text_2">Global</string>
+    <string name="addicon">AddIcon</string>
+    <string name="add_a_new_task">Add a new task</string>
+    <string name="sorticon">SortIcon</string>
+    <string name="menuicon">MenuIcon</string>
+</resources>
