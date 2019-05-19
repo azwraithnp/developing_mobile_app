@@ -13,8 +13,23 @@ import java.util.List;
 @Dao
 public  interface TodoDao {
 
-    @Query("select * from todos order by priority")
+    @Query("select * from todos where completed =0 order by priority desc")
     LiveData<List<Todo>> getAllTodos();
+
+    @Query("select * from todos where completed =0 order by updated_at")
+    LiveData<List<Todo>> getAllTodosByDate();
+
+    @Query("select * from todos where completed =0")
+    LiveData<List<Todo>> getAllTodosByOrder();
+
+    @Query("DELETE FROM todos")
+    public void deleteAll();
+
+    @Query("UPDATE todos set completed=1")
+    public void allComplete();
+
+    @Query("select * from todos where completed=1")
+    public LiveData<List<Todo>> getAllCompletedTodos();
 
     @Insert
     void insertTodo(Todo todo);

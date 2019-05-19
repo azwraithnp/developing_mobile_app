@@ -6,7 +6,7 @@ import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 import android.content.Context;
 
-@Database(entities = {Todo.class}, version = 1, exportSchema = false)
+@Database(entities = {Todo.class}, version = 4, exportSchema = false)
 @TypeConverters(DateConverter.class)
 public abstract class AppDatabase extends RoomDatabase {
 
@@ -19,7 +19,7 @@ public abstract class AppDatabase extends RoomDatabase {
         if(sInstance == null){
             synchronized (LOCK){
                 sInstance = Room.databaseBuilder(context.getApplicationContext(),
-                        AppDatabase.class, AppDatabase.DATABASE_NAME)
+                        AppDatabase.class, AppDatabase.DATABASE_NAME).fallbackToDestructiveMigration()
                         //.allowMainThreadQueries()
                         .build();
             }

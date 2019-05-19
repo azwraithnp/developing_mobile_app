@@ -18,13 +18,13 @@
         android:layout_height="match_parent"
         tools:context=".ui.main.MyTasksFragment">
 
-    <!-- RecyclerView that is responsible for holding a listtaskEntrytask data -->
+        <!-- RecyclerView that is responsible for holding a listtaskEntrytask data -->
         <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewTasks"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:paddingBottom="80dp" />
+            android:id="@+id/recyclerViewTasks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="80dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -36,4 +36,4 @@
         <include layout="@layout/addtask_layout" />
         <include layout="@layout/sortview_layout" />
     </LinearLayout>
-    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/addTaskLayout" android:layout_height="265dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/taskTitleEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Task title"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        android:background="@null"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/taskDescEnter"
+        android:visibility="gone"
+        android:layout_below="@id/taskTitleEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:hint="Task description"
+        android:textColorHint="@color/darkgray"
+        android:textSize="18sp"
+        android:background="@null"/>
+
+    <ImageView
+        android:id="@+id/showDescButton"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/taskDescEnter"
+        android:src="@drawable/ic_subject_green_24dp"/>
+
+    <ImageView
+        android:id="@+id/datePickerButton"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/taskDescEnter"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/showDescButton"
+        android:src="@drawable/ic_date_range_green_24dp"/>
+
+    <ImageView
+        android:id="@+id/priorityButton"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/taskDescEnter"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/datePickerButton"
+        android:src="@drawable/ic_notifications_green_24dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="50dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_alignParentRight="true"
+        android:text="Save"
+        android:id="@+id/saveButton"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/taskDescEnter"/>
+    <View
+        android:layout_below="@id/datePickerButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/draggable" />
+</RelativeLayout>
+</LinearLayout>

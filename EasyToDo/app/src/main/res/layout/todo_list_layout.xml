@@ -15,24 +15,23 @@
         android:layout_height="wrap_content">
 
 
-      <TextView
-          android:layout_toRightOf="@id/checkRadioButton"
-          android:id="@+id/taskTitle"
-          android:textSize="20sp"
-          android:layout_marginLeft="20dp"
-          android:layout_width="wrap_content"
-          android:text="Task title"
-          android:layout_height="wrap_content"
-          android:fontFamily="sans-serif-condensed-medium"
-          android:layout_toEndOf="@id/checkRadioButton" />
+        <TextView
+            android:layout_toRightOf="@id/checkRadioButton"
+            android:id="@+id/taskTitle"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:text="Task title"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_toEndOf="@id/checkRadioButton" />
 
-        <ImageView
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/checkRadioButton"
             android:layout_alignTop="@id/taskTitle"
             android:layout_alignBottom="@id/taskTitle"
-            android:id="@+id/checkRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_radio_button_unchecked_black_24dp" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:layout_below="@id/taskTitle"

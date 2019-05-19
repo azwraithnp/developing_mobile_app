@@ -15,6 +15,26 @@ public  class Todo {
     private String title;
     private String description;
     private int priority;
+
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
+
+    private String imageLink;
+
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
+    }
+
+    private boolean completed = false;
     @ColumnInfo(name = "updated_at")
     private Date dueDate;
 
@@ -33,6 +53,14 @@ public  class Todo {
         this.description = description;
         this.priority = priority;
         this.dueDate = dueDate;
+    }
+
+    @Ignore
+    public Todo(String title, String description, int priority)
+    {
+        this.title = title;
+        this.description = description;
+        this.priority = priority;
     }
 
     public String getTitle() {
